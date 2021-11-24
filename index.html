@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>フルーツパラダイス</title>
+  <link rel="icon" type="image/vnd.microsoft.icon" href="images/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
+  <link rel="stylesheet" href="css/style.min.css">
+  <script>
+    (function(d) {
+      var config = {
+        kitId: 'nfi3knn',
+        scriptTimeout: 3000,
+        async: true
+      },
+      h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+    })(document);
+  </script>
+</head>
+<body>
+  <!-- ヘッダー -->
+  <header>
+      <a href="">
+        <img id="top" src="images/logo-header@2x.png" alt="">
+      </a>
+      <a class="burger-menu" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+  </header>
+<nav>
+    <ul>
+    <li><a href="#about">フルーツパラダイスとは</a></li>
+    <li><a href="#fruit">フルーツ狩り</a></li>
+    <li><a href="#processing">フルーツの加工</a></li>
+    <li><a href="#amusement">遊園地エリア</a></li>
+    <li><a href="#restaurant">カフェ＆レストラン</a></li>
+    <li><a href="#park-map">園内地図</a></li>
+    <li><a href="#gift">おみやげ</a></li>
+    <li><a href="#ticket">チケット</a></li>
+    <li><a href="#access">アクセス</a></li>
+    <li><a href="#footer">お問い合わせ</a></li>
+    <li><img src="images/c-nashi.png" alt=""></li>
+  </ul>
+</nav>
+<!-- メインビジュアル -->
+  <div class="mv">
+    <div class="mv-wrap">
+      <img src="images/mv-1.png" alt="">
+      <img src="images/mv-2.png" alt="">
+    </div>
+    <img class="logo" src="images/logo.png" alt="">
+    <p>営業時間 9:00~19:00</p>
+    <div class="mv-wrap mv-w2">
+      <img src="images/mv-3.png" alt="">
+      <img src="images/mv-4.png" alt="">
+    </div>
+    <div class="btn-ticket">
+      <a href="">ネットのチケット購入でお安く！</a>
+    </div>
+  </div>
+  
+  <div class="mv-c">
+    <img class="c-momo" src="images/c-momo@2x.png" alt="">
+    <img class="c-budou" src="images/c-budou@2x.png" alt="">
+  </div>
+  
+  <div class="container">
+    <!-- フルーツパラダイスとは? -->
+    <section class="about" id="about">
+      <h2>フルーツパラダイスとは?</h2>
+      <div class="icon">
+        <div>
+          <img src="images/i-take@2x.png" alt="">
+          <img src="images/i-eat@2x.png" alt="">
+        </div>
+        <div>
+          <img src="images/i-jam@2x.png" alt="">
+          <img src="images/i-ride@2x.png" alt="">
+        </div>
+      </div>
+      <p>ようこそ！</p>
+      <p>
+        フルーツパラダイスは、果樹園と遊園地が融合した施設です。
+      </p>
+      <p>
+        最大の魅力は、季節のフルーツを<br class="pc-br">
+        自分の手で収穫、食べる、加工する、<br class="pc-br">
+        を体験できるところです。<br class="pc-br">
+      </p>
+      <p>
+        たくさん食べた後は、遊園地で遊ぶこともでき、<br class="pc-br">
+        家族、友達、カップルでお楽しみいただけます。
+      </p>
+    </section>
+    
+    <!-- 観覧車 -->
+    <div class="kanransya">
+      <img class="jiku" src="images/k-jiku_1.png" alt="">
+      <img class="kao" src="images/k-kao_1.png" alt="">
+      <div id="k-parent">
+        <img class="kaiten" src="images/k-kaiten_1.png" alt="">
+        <img class="k-momo child" src="images/k-momo_1.png" alt="">
+        <img class="k-budou child" src="images/k-budou_1.png" alt="">
+        <img class="k-banana child" src="images/k-banana_1.png" alt="">
+        <img class="k-mikan child" src="images/k-mikan_1.png" alt="">
+        <img class="k-nashi child" src="images/k-nashi_1.png" alt="">
+        <img class="k-ichigo child" src="images/k-ichigo_1.png" alt="">
+      </div>
+    </div>
+    <div class="about-c">
+      <img src="images/c-banana@2x.png" alt="">
+    </div>
+  </div>
+  <!-- 収穫ボタン -->
+  <img id="btn-c" src="images/c-syukaku.png" alt="">
+  <div class="slide">
+  <img class="slide1" id="slide1" src="images/slide1.png" alt="">
+  <img id="slide2" src="images/slide2.png" alt="">
+  <img id="slide3" src="images/slide3.png" alt="">
+  <img id="slide4" src="images/slide4.png" alt="">
+  <img id="slide5" src="images/slide5.png" alt="">
+</div>
+  
+  <div class="container">
+    <!-- フルーツ狩り -->
+    <section class="fruit" id="fruit">
+      <h2>フルーツ狩り</h2>
+      <p class="center">果樹園　9:00~17:00</p>
+      <p>
+        フルーツパラダイスでは、もも、ぶどう、なし、いちご、<br class="pc-br">
+        みかん、バナナ、を収穫できます。
+      </p>
+      <p>
+        時期により採れないものもございますので、<br class="pc-br">
+        収穫時期カレンダーをご確認くださいませ。
+      </p>
+      <p>採ったフルーツはその場でお召し上がりできます。</p>
+      <p>
+        収穫は、その場で食べる分と、その後の加工場に<br class="pc-br">
+        お持ちいただく分のみでお願い致します。
+      </p>
+      <div class="pc-flex">
+        <div class="fruit-item">
+          <img class="fc-momo" src="images/fc-momo.png" alt="">
+          <figure>
+            <img src="images/f-momo.jpg" alt="">
+            <figcaption>
+              おしりのような可愛らしい
+              桃を収穫しよう！
+            </figcaption>
+          </figure>
+          <p class="center">もも</p>
+        </div>
+        <div class="fruit-item">
+          <img class="fc-budou" src="images/fc-budou.png" alt="">
+          <figure>
+            <img src="images/f-budou.jpg" alt="">
+            <figcaption>
+              甘くて食べやすい<br>
+              お子様に大人気！
+            </figcaption>
+          </figure>
+          <p class="center">ぶどう</p>
+        </div>
+        <div class="fruit-item">
+          <img class="fc-banana" src="images/fc-banana.png" alt="">
+          <figure>
+            <img src="images/f-banana.jpg" alt="">
+            <figcaption>
+              日本で収穫できるのは珍しい！
+            </figcaption>
+          </figure>
+          <p class="center">バナナ</p>
+        </div>
+      </div>
+    <div class="pc-flex">
+      <div class="fruit-item">
+        <img class="fc-nashi" src="images/fc-nashi.png" alt="">
+        <figure>
+          <img src="images/f-nashi.jpg" alt="">
+          <figcaption>
+            とってもジューシーな<br>
+            梨をぜひ食べて！
+          </figcaption>
+        </figure>
+        <p class="center">なし</p>
+      </div>
+      <div class="fruit-item">
+        <img class="fc-mikan" src="images/fc-mikan.png" alt="">
+        <figure>
+          <img src="images/f-mikan.jpg" alt="">
+          <figcaption>
+            甘くてさっぱり、<br>
+            柑橘の王道！
+          </figcaption>
+        </figure>
+        <p class="center">みかん</p>
+      </div>
+      <div class="fruit-item">
+        <img class="fc-ichigo" src="images/fc-ichigo.png" alt="">
+        <figure>
+          <img src="images/f-ichigo.jpg" alt="">
+          <figcaption>
+            ハウス栽培で、<br>
+            冬でも収穫できる！
+          </figcaption>
+        </figure>
+        <p class="center">いちご</p>
+      </div>
+    </div>
+      <h3>収穫時期カレンダー</h3>
+      <img src="images/table.png" alt="">
+    </section>
+<!-- フルーツの加工 -->
+    <section class="processing" id="processing">
+      <h2>フルーツの加工</h2>
+      <p class="center">加工場　9:30~18:00</p>
+      <p>加工場では採ったフルーツの加工体験ができます。</p>
+      <p>お子様から大人の方までお楽しみ頂けます。</p>
+      <p>混雑時は整理券を配布し、順番待ちとなります。</p>
+      <div class="pc-flex">
+        <img src="images/p-jam.png" alt="">
+        <div>
+          <h3>フルーツジャム</h3>
+          <p>１瓶分（300ml）</p>
+          <p>所要時間　１時間30分</p>
+          <p>料金　500円</p>
+          <p>お土産にピッタリ！天然ジャム作り体験はいかがですか？</p>
+        </div>
+      </div>
+      <div class="pc-flex reverse">
+        <img src="images/p-ame.png" alt="">
+        <div>
+          <h3>フルーツあめ</h3>
+          <p>竹串３本分</p>
+          <p>所要時間　１時間</p>
+          <p>料金　300円</p>
+          <p>お子様でも楽しく作れて大人気！</p>
+        </div>
+      </div>
+      <div class="pc-flex">
+        <img src="images/p-juice.png" alt="">
+        <div>
+          <h3>フルーツジュース</h3>
+          <p>１杯分（400ml）</p>
+          <p>所要時間　20分</p>
+          <p>料金　200円</p>
+          <p>簡単！オリジナル果汁100％ジュースは体験する価値あり！</p>
+        </div>
+      </div>
+    </section>
+    <!-- 遊園地エリア -->
+    <section class="amusement" id="amusement">
+      <h2>遊園地エリア</h2>
+      <p class="center">9:00~19:00</p>
+      <div class="a-photo">
+        <img src="images/y-1.jpg" alt="">
+        <img src="images/y-2.jpg" alt="">
+        <img src="images/y-3.jpg" alt="">
+      </div>
+      <div class="a-photo">
+        <img src="images/y-4.jpg" alt="">
+        <img src="images/y-5.jpg" alt="">
+        <img src="images/y-6.jpg" alt="">
+      </div>
+      <div class="pc-flex">
+        <div class="">
+          <a href="">観覧車</a>
+          <a href="">急流滑り</a>
+        </div>
+        <div class="">
+          <a href="">空中ブランコ</a>
+          <a href="">ジェットコースター</a>
+        </div>
+        <div class="">
+          <a href="">メリーゴーランド</a>
+          <a href="">ゴーカート</a>
+        </div>
+      </div>
+    </section>
+<!-- カフェ＆レストラン -->
+    <section class="restaurant" id="restaurant">
+      <h2>カフェ＆レストラン</h2>
+      <p class="center">10:30~18:30</p>
+      <ul class="slider">
+        <li><img src="images/r-1.jpg" alt=""></li>
+        <li><img src="images/r-2.jpg" alt=""></li>
+        <li><img src="images/r-3.jpg" alt=""></li>
+        <li><img src="images/r-4.jpg" alt=""></li>
+        <li><img src="images/r-5.jpg" alt=""></li>
+        <li><img src="images/r-6.jpg" alt=""></li>
+      </ul>
+      <p>お食事ができ、園内のフルーツを使用したスイーツが食べられます。</p>
+      <div class="pc-flex">
+        <img src="images/r-sweets.png" alt="">
+        <div class="">
+          <p>おすすめ</p>
+          <p>チョコバナナトースト</p>
+          <p>園内で採れたバナナを使用した。</p>
+          <p>
+            大人気チョコとバナナのハーモニー<br class="pc-br">
+            をご堪能あれ。デザートにどうぞ。
+          </p>
+        </div>
+      </div>
+      <a href="">メニューへ</a>
+    </section>
+<!-- 園内地図 -->
+    <section class="park-map" id="park-map">
+      <h2>園内地図</h2>
+      <img src="images/map.png" alt="">
+      <a href="">無料園内バス</a>
+    </section>
+<!-- おみやげ -->
+    <section class="gift" id="gift">
+      <h2>おみやげ</h2>
+      <p class="center">フルーツマーケット　9:00~19:00</p>
+      <div class="pc-flex">
+        <div class="">
+          <p>園内で採れたフルーツをお安く購入できます。</p>
+          <p>お土産にどうぞ！</p>
+          <p>形が不揃いなワケありフルーツはさらにお安く手に入ります。</p>
+          <p>お帰りの際ぜひチェックしてみてください。</p>
+        </div>
+        <img src="images/o-market.jpg" alt="">
+      </div>
+      <h3>グッズ</h3>
+      <div class="pc-flex">
+        <img class="goods" src="images/o-goods.png" alt="">
+        <div>
+          <p class="center">大人気？もも尻野郎のグッズ</p>
+          <a href="https://suzuri.jp/tobutori_no_hina" target="_blank">グッズをネットで購入</a>
+        </div>
+      </div>
+    </section>
+<!-- チケット -->
+    <section class="ticket" id="ticket">
+      <h2>チケット</h2>
+      <p>チケットは、入場料＋フルーツ狩り＋遊園地利用の料金となります。</p>
+      <div class="t-wrap">
+        <h3>料金</h3>
+        <ul>
+          <li>
+            <p>大人（中学生以上）</p>
+            <p>子ども（４歳以上小学生以下）</p>
+            <p>３歳以下</p>
+          </li>
+          <li>
+            <p>1名 3000円</p>
+            <p>1名 1500円</p>
+            <p>無料</p>
+          </li>
+        </ul>
+      </div>
+      <p>ご来場日の前日（の24時）までにネットでチケットを購入すると10％引きになります。</p>
+      <div class="btn-ticket"><a href="">ネットのチケット購入でお安く！</a></div>
+      <div class="btn-green"><a href="">団体でお越しの方（20名以上）</a></div>
+    </section>
+    <!-- アクセス -->
+    <section class="access" id="access">
+    <h2>アクセス</h2>
+    <p>フルーツパラダイス</p>
+    <p>〒273-0123 千葉県鎌ケ谷市南初富１丁目１</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25897.40957920103!2d140.00061816604037!3d35.771047960146774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601881fb4c721c4f%3A0xe9619dec98c235e5!2z5bCP5p2J5ZyS77yI5qGD54up44KK77yJ!5e0!3m2!1sja!2sjp!4v1630465030694!5m2!1sja!2sjp" width="100%" height="200" style="border:0;"  loading="lazy"></iframe>
+    <div class="pc-flex">
+      <div class="btn-blue"><a href="">公共交通機関でお越しの方</a></div>
+      <div class="btn-blue"><a href="">お車でお越しの方</a></div>
+    </div>
+    </section>
+  </div>
+<!-- フッターキャラ -->
+  <div class="footer-c">
+    <img src="images/c-seisansya@2x.png" alt="">
+  </div>
+<!-- フッター -->
+<footer id="footer">
+  <div class="pc-flex">
+    <img src="images/logo.png" alt="">
+    <ul>
+      <li>
+        <a href="#about">フルーツパラダイスとは</a>
+        <a href="#fruit">フルーツ狩り</a>
+        <a href="#processing">フルーツの加工</a>
+        <a href="#amusement">遊園地エリア</a>
+        <a href="#restaurant">カフェ＆レストラン</a>
+      </li>
+      <li>
+        <a href="#park-map">園内地図</a>
+        <a href="#gift">おみやげ</a>
+        <a href="#ticket">チケット</a>
+        <a href="#access">アクセス</a>
+        <a href="#">お問い合わせ</a>
+      </li>
+    </ul>
+  </div>
+
+  <p><small>Copyright &copy; 2021 FRUIT PARADISE.</small></p>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
